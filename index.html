@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Maison Élise — Luxury Fashion House</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-black text-white">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full z-50">
+    <div class="flex items-center justify-between px-6 md:px-16 py-6 glass">
+
+      <h1 class="text-3xl tracking-[0.25em] uppercase font-light">
+        Maison Élise
+      </h1>
+
+      <nav class="hidden md:flex gap-10 text-sm uppercase tracking-[0.2em]">
+        <a href="#about" class="hover:text-[#d4af37] transition">About</a>
+        <a href="#collection" class="hover:text-[#d4af37] transition">Collection</a>
+        <a href="#runway" class="hover:text-[#d4af37] transition">Runway</a>
+        <a href="#newsletter" class="hover:text-[#d4af37] transition">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative h-screen overflow-hidden">
+
+    <img
+      src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1974&auto=format&fit=crop"
+      class="absolute inset-0 w-full h-full object-cover"
+      alt=""
+    />
+
+    <div class="absolute inset-0 hero-overlay"></div>
+
+    <div class="relative z-10 h-full flex items-center px-8 md:px-20">
+
+      <div class="max-w-3xl fade-up">
+
+        <p class="uppercase tracking-[0.5em] text-sm mb-6 text-[#d4af37]">
+          Paris Fashion House
+        </p>
+
+        <h1 class="text-6xl md:text-8xl leading-none font-light mb-8">
+          Maison Élise
+        </h1>
+
+        <p class="text-xl md:text-2xl text-[#e7dfd1] mb-10 max-w-xl">
+          Redefining Modern Elegance
+        </p>
+
+        <a
+          href="#collection"
+          class="inline-flex items-center px-10 py-4 gold-border uppercase tracking-[0.25em] text-sm hover:bg-white hover:text-black transition-all duration-500"
+        >
+          Explore Collection
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-32 px-8 md:px-20 bg-[#0d0d0d]">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+
+      <div class="fade-up">
+
+        <p class="uppercase tracking-[0.4em] text-[#d4af37] text-sm mb-6">
+          About The House
+        </p>
+
+        <h2 class="text-5xl md:text-7xl leading-[0.95] mb-10">
+          Crafted for the new era of luxury.
+        </h2>
+
+      </div>
+
+      <div class="fade-up">
+
+        <p class="text-lg text-[#d6d1c7] leading-9">
+          Maison Élise blends Parisian refinement with contemporary silhouettes,
+          creating collections that embody timeless femininity and architectural
+          precision. Inspired by haute couture traditions and modern minimalism,
+          every garment is designed to feel cinematic, bold, and deeply elegant.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- COLLECTION -->
+  <section id="collection" class="py-32 px-8 md:px-20 bg-black">
+
+    <div class="text-center mb-20 fade-up">
+
+      <p class="uppercase tracking-[0.4em] text-[#d4af37] text-sm mb-4">
+        Featured Collection
+      </p>
+
+      <h2 class="text-5xl md:text-7xl">
+        Autumn / Winter 2026
+      </h2>
+
+    </div>
+
+    <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
+
+      <!-- CARD -->
+      <div class="collection-card relative overflow-hidden rounded-[2rem] fade-up">
+
+        <img
+          src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1887&auto=format&fit=crop"
+          class="w-full h-[600px] object-cover"
+          alt=""
+        />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+        <div class="absolute bottom-0 left-0 p-8">
+          <h3 class="text-3xl mb-2">Noir Atelier</h3>
+          <p class="uppercase tracking-[0.25em] text-xs text-[#d4af37]">
+            Couture
+          </p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="collection-card relative overflow-hidden rounded-[2rem] fade-up">
+
+        <img
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1770&auto=format&fit=crop"
+          class="w-full h-[600px] object-cover"
+          alt=""
+        />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+        <div class="absolute bottom-0 left-0 p-8">
+          <h3 class="text-3xl mb-2">Ivory Motion</h3>
+          <p class="uppercase tracking-[0.25em] text-xs text-[#d4af37]">
+            Runway
+          </p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="collection-card relative overflow-hidden rounded-[2rem] fade-up">
+
+        <img
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1887&auto=format&fit=crop"
+          class="w-full h-[600px] object-cover"
+          alt=""
+        />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+        <div class="absolute bottom-0 left-0 p-8">
+          <h3 class="text-3xl mb-2">Golden Veil</h3>
+          <p class="uppercase tracking-[0.25em] text-xs text-[#d4af37]">
+            Limited Edition
+          </p>
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="collection-card relative overflow-hidden rounded-[2rem] fade-up">
+
+        <img
+          src="https://images.unsplash.com/photo-1495385794356-15371f348c31?q=80&w=1887&auto=format&fit=crop"
+          class="w-full h-[600px] object-cover"
+          alt=""
+        />
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+
+        <div class="absolute bottom-0 left-0 p-8">
+          <h3 class="text-3xl mb-2">Étoile</h3>
+          <p class="uppercase tracking-[0.25em] text-xs text-[#d4af37]">
+            Evening Wear
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RUNWAY -->
+  <section id="runway" class="py-32 bg-[#0a0a0a] overflow-hidden">
+
+    <div class="px-8 md:px-20 mb-16 fade-up">
+
+      <p class="uppercase tracking-[0.4em] text-[#d4af37] text-sm mb-4">
+        Fashion Week
+      </p>
+
+      <h2 class="text-5xl md:text-7xl">
+        Runway Moments
+      </h2>
+
+    </div>
+
+    <div class="runway-scroll flex gap-6 overflow-x-auto px-8 md:px-20 pb-4">
+
+      <img
+        src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop"
+        class="w-[350px] h-[500px] object-cover rounded-[2rem] flex-shrink-0 fade-up"
+        alt=""
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1887&auto=format&fit=crop"
+        class="w-[420px] h-[500px] object-cover rounded-[2rem] flex-shrink-0 fade-up"
+        alt=""
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1887&auto=format&fit=crop"
+        class="w-[350px] h-[500px] object-cover rounded-[2rem] flex-shrink-0 fade-up"
+        alt=""
+      />
+
+      <img
+        src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=1887&auto=format&fit=crop"
+        class="w-[420px] h-[500px] object-cover rounded-[2rem] flex-shrink-0 fade-up"
+        alt=""
+      />
+
+    </div>
+
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="py-32 px-8 md:px-20 bg-black">
+
+    <div class="max-w-4xl mx-auto text-center glass rounded-[3rem] p-12 md:p-20 fade-up">
+
+      <p class="uppercase tracking-[0.4em] text-[#d4af37] text-sm mb-6">
+        Private Access
+      </p>
+
+      <h2 class="text-5xl md:text-7xl mb-8">
+        Join Our Newsletter
+      </h2>
+
+      <p class="text-[#d8d3c8] max-w-2xl mx-auto mb-12 leading-8">
+        Receive exclusive runway invitations, private previews,
+        and early access to Maison Élise collections.
+      </p>
+
+      <form class="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
+
+        <input
+          type="email"
+          placeholder="Your Email Address"
+          class="flex-1 bg-white/5 border border-white/10 px-6 py-5 rounded-full outline-none focus:border-[#d4af37] transition"
+        />
+
+        <button
+          class="px-10 py-5 rounded-full bg-[#d4af37] text-black uppercase tracking-[0.2em] text-sm hover:scale-105 transition-all duration-500"
+        >
+          Subscribe
+        </button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-10 px-8 md:px-20 bg-[#050505]">
+
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+
+      <div>
+        <h3 class="text-2xl tracking-[0.2em] uppercase">
+          Maison Élise
+        </h3>
+      </div>
+
+      <div class="flex gap-8 uppercase text-sm tracking-[0.2em] text-[#d0c8ba]">
+        <a href="#" class="hover:text-[#d4af37] transition">Instagram</a>
+        <a href="#" class="hover:text-[#d4af37] transition">Pinterest</a>
+        <a href="#" class="hover:text-[#d4af37] transition">TikTok</a>
+      </div>
+
+      <div class="text-sm text-[#8f8a80]">
+        © 2026 Maison Élise. All rights reserved.
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
